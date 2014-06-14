@@ -31,7 +31,7 @@ my $dcc_msg;
 Irssi::settings_add_bool("unotify", "unotify_enable", 1);
 Irssi::settings_add_bool("unotify", "unotify_public_msg", 1);
 Irssi::settings_add_bool("unotify", "unotify_dcc_msg", 1);
-Irssi::settings_add_str("unotify", "unotify_mention_str", 1);
+Irssi::settings_add_str("unotify", "unotify_mention_str", "");
 
 $enable = Irssi::settings_get_bool('unotify_enable');
 $dcc_msg = Irssi::settings_get_bool('unotify_dcc_msg');
