@@ -65,3 +65,19 @@ string
 /set unotify_public_msg OFF
 
 /set unotify_mention_str "your_nick"
+
+Reference
+=========
+The ideal belong to: 
+
+https://code.google.com/p/irssi-libnotify/
+
+I just change somethings
+
+- setting
+
+- "append" hint
+
+- mention string
+
+- remove 'print text' signal
